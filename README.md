@@ -59,6 +59,6 @@ Your readme will have various images and gifs on it. Upload a test image and tes
   [Test](raspberry-pi/test.py)      
 
 ### Test Image
-  [Test](images/raspberry.jfif) 
+  ![Test](images/raspberry.jfif) 
 ### Test GIF
-  [Test](images/Gatsbymeme.gif) 
+  ![Test](images/Gatsbymeme.gif) 
