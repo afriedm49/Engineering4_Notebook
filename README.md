@@ -3,16 +3,16 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+* [LaunchPad1](#LaunchPad1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
+## LaunchPad1
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This assignment was to code the serial monitor to count down from 10 to 0, with one second in between. It prints "Liftoff!" after landing.
 
 ### Evidence 
 
@@ -20,7 +20,7 @@ Pictures / Gifs of your work should go here. You need to communicate what your t
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+N.A.
 
 ### Code
 Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
