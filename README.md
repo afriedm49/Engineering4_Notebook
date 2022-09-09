@@ -16,21 +16,43 @@ This assignment was to code the serial monitor to count down from 10 to 0, with 
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![Video](images/Astronaut_pt1.mp4) 
 
 ### Wiring
 
 N.A.
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[Part 1 code](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/Astronaut1.py)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
+It was challenging at first to figure out the for loop, but easy once I got it. It important to make sure that your step is negative if you are trying to count down, or else you will need to do print(10-x) for each value of x from 0 to 10.
 &nbsp;
 
+## LaunchPad2
+
+### Assignment Description
+
+This assignment was to add on to part 1 by plugging in an external red LED which blinks as time goes down, and a green LED which stays on during liftoff.
+
+### Evidence 
+
+![Video](images/Astronaut2.mp4) 
+
+### Wiring
+
+![Pic](images/Astronaut2.png) 
+
+### Code
+[Part 2 code](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/Astronaut2.py)
+
+### Reflection
+
+Make sure you are using OUTPUT on your LED direction, and get your led to turn on and off within the for loop, so it continually repeats.
+
+&nbsp;
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Onshape_Assignment_Template
 
 ### Assignment Description
