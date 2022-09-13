@@ -67,7 +67,7 @@ This assignment was to add on to parts 1 and 2 by connecting a button that start
 
 ### Wiring
 
-![Pic](images/Astronaut3.jpg) 
+<img src="images/Astronaut3.jpg" width="300" height="400" /> 
 
 ### Code
 [Part 3 code](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/Astronaut3.py)
