@@ -6,6 +6,7 @@
 * [LaunchPad1](#LaunchPad1)
 * [LaunchPad2](#LaunchPad2)
 * [LaunchPad3](#LaunchPad3)
+* [LaunchPad4](#LaunchPad4)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -78,6 +79,35 @@ The tricky part on this assignment was making sure that the wiring was set up co
 
 &nbsp;
 
+## LaunchPad4
+
+### Assignment Description
+
+This assignment was to add on to parts 1, 2, and 3 by connecting a servo that spins before liftoff. It starts spinning at 3 seconds remaining, by 60 degrees, and 60 degrees more for seconds 2 and 1, until it's turned all the way 180 degrees.
+### Evidence 
+
+![Video](images/Astronaut4.mp4) 
+
+### Wiring
+
+<img src="images/Astronaut4.jpg" width="300" height="400" /> 
+
+### Code
+[Part 4 code](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/Astronaut4.py)
+
+### Reflection
+
+#### In order to create a "sweeping" effect, it is important to set a counter before the program begins:
+```python
+counter = 0
+```
+
+#### Each second within the for loop, the counter adds one, and sweep begins after 7 seconds:
+```python
+counter += 1 
+if counter > 7: 
+    servo1.angle += 60 
+```
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Onshape_Assignment_Template
 
