@@ -5,6 +5,7 @@
 ## Table of Contents
 * [LaunchPad1](#LaunchPad1)
 * [LaunchPad2](#LaunchPad2)
+* [LaunchPad3](#LaunchPad3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -53,6 +54,30 @@ This assignment was to add on to part 1 by plugging in an external red LED which
 Make sure you are using OUTPUT on your LED direction, and get your led to turn on and off within the for loop, so it continually repeats.
 
 &nbsp;
+
+## LaunchPad3
+
+### Assignment Description
+
+This assignment was to add on to parts 1 and 2 by connecting a button that starts the program.
+
+### Evidence 
+
+![Video](images/Astronaut3.mp4) 
+
+### Wiring
+
+![Pic](images/Astronaut3.jpg) 
+
+### Code
+[Part 3 code](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/Astronaut3.py)
+
+### Reflection
+
+The tricky part on this assignment was making sure that the wiring was set up correct. It was much simpler than I originally thought, because the button only needed to be plugged in to 3V and an input PIN. Pressing the button closes the circuit, signalling a True button.value.
+
+&nbsp;
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Onshape_Assignment_Template
 
