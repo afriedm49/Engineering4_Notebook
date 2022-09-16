@@ -7,6 +7,7 @@
 * [LaunchPad2](#LaunchPad2)
 * [LaunchPad3](#LaunchPad3)
 * [LaunchPad4](#LaunchPad4)
+* [CrashAvoidance1](#CrashAvoidance1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -108,6 +109,39 @@ counter += 1
 if counter > 7: 
     servo1.angle += 60 
 ```
+&nbsp;
+
+## CrashAvoidance1
+
+### Assignment Description
+
+This assignment is to set up the wiring and simple programming of an accelerometer, the mpu6050.
+
+### Evidence 
+
+![Video](images/CrashAvoidance1.mp4) 
+
+### Wiring
+
+<img src="images/Crashavoidance1.jpg" width="300" height="400" /> 
+
+### Code
+[Part 4 code](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/Astronaut4.py)
+
+### Reflection
+
+#### In order to create a "sweeping" effect, it is important to set a counter before the program begins:
+```python
+counter = 0
+```
+
+#### Each second within the for loop, the counter adds one, and sweep begins after 7 seconds:
+```python
+counter += 1 
+if counter > 7: 
+    servo1.angle += 60 
+```
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Onshape_Assignment_Template
 
