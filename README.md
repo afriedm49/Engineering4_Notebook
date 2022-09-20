@@ -143,7 +143,7 @@ This assignment is to make an LED turn on when the accelerometer is sideways.
 
 ### Evidence 
 
-![Video](images/CrashAvoidance2.mov) 
+![Video](images/CrashAvoidance2.MOV) 
 
 ### Wiring
 
