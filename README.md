@@ -143,11 +143,11 @@ This assignment is to make an LED turn on when the accelerometer is sideways.
 
 ### Evidence 
 
-![Video](images/CrashAvoidance2.mp4) 
+![Video](images/CrashAvoidance2.mov) 
 
 ### Wiring
 
-<img src="images/Crashavoidance2.jpg" width="300" height="400" /> 
+<img src="images/CrashAvoidance2.jpg" width="300" height="400" /> 
 
 ### Code
 [Crash Avoidance Code Part 2](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/CrashAvoidance2.py)
