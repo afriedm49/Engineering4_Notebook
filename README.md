@@ -7,6 +7,7 @@
 * [LaunchPad2](#LaunchPad2)
 * [LaunchPad3](#LaunchPad3)
 * [LaunchPad4](#LaunchPad4)
+* [CrashAvoidance1](#CrashAvoidance1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -108,6 +109,31 @@ counter += 1
 if counter > 7: 
     servo1.angle += 60 
 ```
+&nbsp;
+
+## CrashAvoidance1
+
+### Assignment Description
+
+This assignment is to set up the wiring and simple programming of an accelerometer, the mpu6050.
+
+### Evidence 
+
+![Video](images/CrashAvoidance1.mp4) 
+
+### Wiring
+
+<img src="images/Crashavoidance1.jpg" width="300" height="400" /> 
+
+### Code
+[Crash Avoidance Code Part 1](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/CrashAvoidance1.py)
+
+### Reflection
+
+The wiring was the trickier part of this assignment. Make sure that the scl pin is connected to an scl applicable pin on the pico, and same with the sda pin. Also, make sure that you have a while loop printing the acceleration, and a time.sleep in place so the values don't run forever. 
+
+As the output is a tuple, you are able to print only the x acceleration, for example, by typing print(mpu.acceleration[0]). Use [1] for y values and [2] for z values.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Onshape_Assignment_Template
 
