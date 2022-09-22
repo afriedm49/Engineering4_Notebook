@@ -8,6 +8,7 @@
 * [LaunchPad3](#LaunchPad3)
 * [LaunchPad4](#LaunchPad4)
 * [CrashAvoidance1](#CrashAvoidance1)
+* [CrashAvoidance2](#CrashAvoidance2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -133,6 +134,38 @@ This assignment is to set up the wiring and simple programming of an acceleromet
 The wiring was the trickier part of this assignment. Make sure that the scl pin is connected to an scl applicable pin on the pico, and same with the sda pin. Also, make sure that you have a while loop printing the acceleration, and a time.sleep in place so the values don't run forever. 
 
 As the output is a tuple, you are able to print only the x acceleration, for example, by typing print(mpu.acceleration[0]). Use [1] for y values and [2] for z values.
+
+## CrashAvoidance2
+
+### Assignment Description
+
+This assignment is to make an LED turn on when the accelerometer is sideways.
+
+### Evidence 
+
+![Video](images/CrashAvoidance2.MOV) 
+
+### Wiring
+
+<img src="images/CrashAvoidance2.jpg" width="300" height="400" /> 
+
+### Code
+[Crash Avoidance Code Part 2](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/CrashAvoidance2.py)
+
+### Reflection
+
+Remember, because the output is a tuple, you are able to print only the x acceleration, for example, by typing print(mpu.acceleration[0]). Use [1] for y values and [2] for z values.
+In order to complete this assignment, simply make the led turn on when mpu.acceleration[2] is equal to 0. Because it is hard to line it up exactly sideways, use a margin of error such as one shown below:
+
+```python
+while True:
+    print(mpu.acceleration)
+    if (-1 < mpu.acceleration[2] < 1):
+        led.value = True
+    else:
+        led.value = False
+```
+&nbsp;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Onshape_Assignment_Template
