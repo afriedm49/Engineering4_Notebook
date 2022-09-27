@@ -9,6 +9,7 @@
 * [LaunchPad4](#LaunchPad4)
 * [CrashAvoidance1](#CrashAvoidance1)
 * [CrashAvoidance2](#CrashAvoidance2)
+* [CrashAvoidance3](#CrashAvoidance3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -165,6 +166,40 @@ while True:
     else:
         led.value = False
 ```
+&nbsp;
+
+## CrashAvoidance3
+
+### Assignment Description
+
+This assignment is to initiate an LCD screen, printing velocity values of x, y, and z, as well as a title "ANGULAR VELOCITY" at the top of the screen
+
+### Evidence 
+
+![Video](images/Crashavoidance3.MOV) 
+
+### Wiring
+
+<img src="images/Crashavoidance3.jpg" width="300" height="400" /> 
+
+### Code
+[Crash Avoidance Code Part 2](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/CrashAvoidance2.py)
+
+### Reflection
+
+This code was tricky to navigate at first - I had trouble connecting two I2C devices on the same port. I was missing the line:
+```python
+ mpu = adafruit_mpu6050.MPU6050(i2c, address=your-address-here)
+```
+After adding this, then tweaking a couple other lines, I was able to turn the LCD screen on.
+
+Now, for the simpler part. Set variables as lines of text you want to print, put that text in the label format setting the position with x= and y=, and then append the label. For example:
+```python
+ xvelocity = "X-velocity: " + str(round(mpu.gyro[0], 3))
+ xlabel = label.Label(terminalio.FONT, text= xvelocity, color=0xFFFF00, x=5 , y=20)
+ splash.append(xlabel)
+```
+Repeat with Y and Z values on subsequent lines, and you're done!
 &nbsp;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
