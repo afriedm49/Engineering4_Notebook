@@ -10,6 +10,7 @@
 * [CrashAvoidance1](#CrashAvoidance1)
 * [CrashAvoidance2](#CrashAvoidance2)
 * [CrashAvoidance3](#CrashAvoidance3)
+* [LandingArea1](#LandingArea1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -183,7 +184,7 @@ This assignment is to initiate an LCD screen, printing velocity values of x, y, 
 <img src="images/Crashavoidance3.jpg" width="300" height="400" /> 
 
 ### Code
-[Crash Avoidance Code Part 2](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/CrashAvoidance2.py)
+[Crash Avoidance Code Part 3](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/CrashAvoidance2.py)
 
 ### Reflection
 
@@ -202,6 +203,27 @@ Now, for the simpler part. Set variables as lines of text you want to print, put
 Repeat with Y and Z values on subsequent lines, and you're done!
 &nbsp;
 
+## LandingArea1
+
+### Assignment Description
+
+This assignment was to design code that requests an input of 3 (x, y) coordinates, and then outputs the area of those points in a triangle.
+
+### Evidence 
+
+![Video](images/LandingArea1.mp4) 
+
+### Wiring
+
+N.A.
+
+### Code
+[LandingArea code part 1](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/Astronaut1.py)
+
+### Reflection
+
+The main thing needed in order to code this is the split() function. This allows for user input of 2 separate variables within the same input line. Putting a comma between the two 
+&nbsp;
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Onshape_Assignment_Template
 
