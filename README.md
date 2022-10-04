@@ -11,6 +11,7 @@
 * [CrashAvoidance2](#CrashAvoidance2)
 * [CrashAvoidance3](#CrashAvoidance3)
 * [LandingArea1](#LandingArea1)
+* [LandingArea2](#LandingArea2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -184,7 +185,7 @@ This assignment is to initiate an LCD screen, printing velocity values of x, y, 
 <img src="images/Crashavoidance3.jpg" width="300" height="400" /> 
 
 ### Code
-[Crash Avoidance Code Part 3](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/CrashAvoidance2.py)
+[Crash Avoidance Code Part 3](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/CrashAvoidance3.py)
 
 ### Reflection
 
@@ -218,11 +219,35 @@ This assignment was to design code that requests an input of 3 (x, y) coordinate
 N.A.
 
 ### Code
-[LandingArea code part 1](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/Astronaut1.py)
+[LandingArea code part 1](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/LandingArea1.py)
 
 ### Reflection
 
-The main thing needed in order to code this is the split() function. This allows for user input of 2 separate variables within the same input line. Putting a comma between the two 
+The main thing needed in order to code this is the split() function. This allows for user input of 2 separate variables within the same input line. Putting a comma in parentheses will be the separater for the input.
+
+&nbsp;
+
+## LandingArea2
+
+### Assignment Description
+
+This assignment was to design code that requests an input of 3 (x, y) coordinates, similarly to part 1, and then outputs the triangle of those points on the OLED screen, with a centerpoint and an x and y axis.
+
+### Evidence 
+
+![Video](images/LandingArea2.mp4) 
+
+### Wiring
+
+<img src="images/Crashavoidance3.jpg" width="300" height="400" />
+
+### Code
+[LandingArea code part 2](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/LandingArea2.py)
+
+### Reflection
+
+The adafruit_display_shapes folder is an important piece to this assignment. Importing the line, circle, and triangle shapes gives easy access to these functions. Also, make sure that you convert the inputed floats to integers before printing them on the OLED screen, as the screen is pixels, and cannot receive decimal values.
+
 &nbsp;
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Onshape_Assignment_Template
