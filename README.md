@@ -263,7 +263,7 @@ This assignment was to design code that requests an input of a text message, and
 
 ### Wiring
 
-<img src="images/CrashAvoidance3.jpg" width="300" height="400" />
+<img src="images/Crashavoidance3.jpg" width="300" height="400" />
 
 ### Code
 [MorseCode code part 1](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/MorseCode1.py)
