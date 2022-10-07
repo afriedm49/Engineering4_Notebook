@@ -12,6 +12,7 @@
 * [CrashAvoidance3](#CrashAvoidance3)
 * [LandingArea1](#LandingArea1)
 * [LandingArea2](#LandingArea2)
+* [MorseCode1](#MorseCode1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -243,6 +244,29 @@ This assignment was to design code that requests an input of 3 (x, y) coordinate
 
 ### Code
 [LandingArea code part 2](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/LandingArea2.py)
+
+### Reflection
+
+The adafruit_display_shapes folder is an important piece to this assignment. Importing the line, circle, and triangle shapes gives easy access to these functions. Also, make sure that you convert the inputed floats to integers before printing them on the OLED screen, as the screen is pixels, and cannot receive decimal values.
+
+&nbsp;
+
+## MorseCode1
+
+### Assignment Description
+
+This assignment was to design code that requests an input of 3 (x, y) coordinates, similarly to part 1, and then outputs the triangle of those points on the OLED screen, with a centerpoint and an x and y axis.
+
+### Evidence 
+
+![Video](images/MorseCode1.mp4) 
+
+### Wiring
+
+<img src="images/MorseCode1.jpg" width="300" height="400" />
+
+### Code
+[MorseCode code part 1](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/MorseCode1.py)
 
 ### Reflection
 
