@@ -255,7 +255,7 @@ The adafruit_display_shapes folder is an important piece to this assignment. Imp
 
 ### Assignment Description
 
-This assignment was to design code that requests an input of 3 (x, y) coordinates, similarly to part 1, and then outputs the triangle of those points on the OLED screen, with a centerpoint and an x and y axis.
+This assignment was to design code that requests an input of a text message, and the code is converted to Morse. If the user inputs -q, then the program ends.
 
 ### Evidence 
 
@@ -263,14 +263,14 @@ This assignment was to design code that requests an input of 3 (x, y) coordinate
 
 ### Wiring
 
-<img src="images/MorseCode1.jpg" width="300" height="400" />
+<img src="images/Crashavoidance3.jpg" width="300" height="400" />
 
 ### Code
 [MorseCode code part 1](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/MorseCode1.py)
 
 ### Reflection
 
-The adafruit_display_shapes folder is an important piece to this assignment. Importing the line, circle, and triangle shapes gives easy access to these functions. Also, make sure that you convert the inputed floats to integers before printing them on the OLED screen, as the screen is pixels, and cannot receive decimal values.
+The dictionary is very helpful in order to have all the morse values in one place, and can be called easily by the MORSE_CODE[], with the letter in the brackets. Use a for loop to go through each letter in the message, and add each morse letter to a blank string, printing it at the end.
 
 &nbsp;
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
