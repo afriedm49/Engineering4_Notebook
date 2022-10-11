@@ -13,6 +13,7 @@
 * [LandingArea1](#LandingArea1)
 * [LandingArea2](#LandingArea2)
 * [MorseCode1](#MorseCode1)
+* [MorseCode2](#MorseCode2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -272,6 +273,49 @@ This assignment was to design code that requests an input of a text message, and
 
 The dictionary is very helpful in order to have all the morse values in one place, and can be called easily by the MORSE_CODE[], with the letter in the brackets. Use a for loop to go through each letter in the message, and add each morse letter to a blank string, printing it at the end.
 
+&nbsp;
+
+## MorseCode2
+
+### Assignment Description
+
+In this assignment, I coded an LED to blink based on the morse coded message from a user input. It blinks a different amount of time based on whether there is a dot, dash, space, or slash(between words).
+
+### Evidence 
+
+![Video](images/MorseCode2.mp4) 
+
+### Wiring
+
+N/A
+
+### Code
+[MorseCode code part 2](https://github.com/afriedm49/Engineering4_Notebook/blob/main/raspberry-pi/MorseCode2.py)
+
+### Reflection
+
+In this code, it is important to create a conditional for each possible item in the morse message. After knowing that, create variables for each amount of timeto rest, so it can be easily changed. Then, simply turn on the LED when the message lands on a dot or dash, and delay for the appropriate amount of time.
+
+The bulk of the code to blink the LED is shown below -
+
+```python
+for item in morseMessage:
+        if item == '.':
+            led.value = True
+            time.sleep(dot_time)
+            led.value = False
+        elif item == '-':
+            led.value = True
+            time.sleep(dash_time)
+            led.value = False
+        
+        if item == ' ':
+            time.sleep(between_letters)
+        elif item == '/':
+            time.sleep(between_words)
+        else:
+            time.sleep(tap_delay)
+```
 &nbsp;
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Onshape_Assignment_Template
