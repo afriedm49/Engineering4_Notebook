@@ -37,7 +37,7 @@ N.A.
 
 ### Reflection
 
-It was challenging at first to figure out the for loop, but easy once I got it. It important to make sure that your step is negative if you are trying to count down, or else you will need to do print(10-x) for each value of x from 0 to 10.
+It was challenging at first to figure out the for loop, but easy once I got it. It important to make sure that your step is negative if you are trying to count down, or else you will need to do print(10-x) for each value of x from 0 to 10. Generally, for loops are helpful for looping that is limited by a certain number of repetitions.
 &nbsp;
 
 ## LaunchPad2
@@ -59,7 +59,7 @@ This assignment was to add on to part 1 by plugging in an external red LED which
 
 ### Reflection
 
-Make sure you are using OUTPUT on your LED direction, and get your led to turn on and off within the for loop, so it continually repeats.
+Make sure you are using OUTPUT on your LED direction. This will allow you to turn the LED on and off within the for loop, so it continually repeats. Make sure you match each LED pin with the correct pin in your code.
 
 &nbsp;
 
@@ -82,7 +82,7 @@ This assignment was to add on to parts 1 and 2 by connecting a button that start
 
 ### Reflection
 
-The tricky part on this assignment was making sure that the wiring was set up correct. It was much simpler than I originally thought, because the button only needed to be plugged in to 3V and an input PIN. Pressing the button closes the circuit, signalling a True button.value.
+The tricky part on this assignment was making sure that the wiring was set up correct. It was much simpler than I originally thought, because the button only needed to be plugged in to 3V and an input PIN. Pressing the button closes the circuit, signalling a True button.value
 
 &nbsp;
 
@@ -225,7 +225,7 @@ N.A.
 
 ### Reflection
 
-The main thing needed in order to code this is the split() function. This allows for user input of 2 separate variables within the same input line. Putting a comma in parentheses will be the separater for the input.
+The main thing needed in order to code this is the split() function. This allows for user input of 2 separate variables within the same input line. Putting a comma in parentheses will designate it as the separator for the input, meaning a user will have to separate their input with a comma as well.
 
 &nbsp;
 
@@ -271,7 +271,7 @@ This assignment was to design code that requests an input of a text message, and
 
 ### Reflection
 
-The dictionary is very helpful in order to have all the morse values in one place, and can be called easily by the MORSE_CODE[], with the letter in the brackets. Use a for loop to go through each letter in the message, and add each morse letter to a blank string, printing it at the end.
+The dictionary is very helpful in order to have all the morse values in one place. It can be called easily by MORSE_CODE[], with the desired term in the brackets. Use a for loop to go through each letter in the message, adding each morse letter to a blank string. Lastly, print the string at at the end.
 
 &nbsp;
 
@@ -294,7 +294,7 @@ N/A
 
 ### Reflection
 
-In this code, it is important to create a conditional for each possible item in the morse message. After knowing that, create variables for each amount of timeto rest, so it can be easily changed. Then, simply turn on the LED when the message lands on a dot or dash, and delay for the appropriate amount of time.
+In this code, it is important to create a conditional for each possible item in the morse message. Then, create variables for each amount of time to rest. Lastly, turn on the LED when the message lands on a dot or dash, and delay for the appropriate amount of time with the variables created earlier.
 
 The bulk of the code to blink the LED is shown below -
 
