@@ -29,8 +29,8 @@ def triArea(x1, y1, x2, y2, x3, y3):
     area = abs(x1 * (y2-y3) + x2 * (y3-y1) + x3 *(y3-y2))
     return area
     
-while True:
-    splash = displayio.Group()
+while True:     
+    splash = displayio.Group()              #initiates a splash that contains a coordinate plane and a centerpoint circle
     vline = Line(64,0,64,64, color=0xFFFF00)
     splash.append(vline)
     hline = Line(0,32,128,32, color=0xFFFF00)
@@ -44,16 +44,16 @@ while True:
         [xcoor2, ycoor2] = input("Enter coordinate 2: ").split(",")
         [xcoor3, ycoor3] = input("Enter coordinate 3: ").split(",")
         print("The area of the triangle with points (" + xcoor1 + ", " + ycoor1 + ")," + " (" + xcoor2 + ", " + ycoor2 + ")," + " (" + xcoor3 + ", " + ycoor3 + ") is " + str(triArea(xcoor1, ycoor1, xcoor2, ycoor2, xcoor3, ycoor3)))
-        xcoor1 = int(xcoor1) + 64
+        xcoor1 = int(xcoor1) + 64       #Each of these coordinates are converted to fit on the displayed screen, because it is 128 by 64, and values should be centered at (0,0)
         xcoor2 = int(xcoor2) + 64
         xcoor3 = int(xcoor3) + 64
-        ycoor1 = -int(ycoor1) + 32
+        ycoor1 = -int(ycoor1) + 32      # Y values are flipped upside down because y values move in the negative direction on the screen
         ycoor2 = -int(ycoor2) + 32
         ycoor3 = -int(ycoor3) + 32
 
     except:
         print("Error")
 
-    triangle = Triangle(xcoor1, ycoor1, xcoor2, ycoor2, xcoor3, ycoor3, outline=0xFFFF00)
+    triangle = Triangle(xcoor1, ycoor1, xcoor2, ycoor2, xcoor3, ycoor3, outline=0xFFFF00)       #prints the triangle using the triangle function
     splash.append(triangle)
     display.show(splash)
