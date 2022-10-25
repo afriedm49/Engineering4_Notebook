@@ -33,15 +33,15 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '0':'-----', ', ':'--..--', '.':'.-.-.-',
     '?':'..--..', '/':'-..-.', '-':'-....-',
     '(':'-.--.', ')':'-.--.-'}
-
+# A dictionary is intialized above, containing definitions of each letter as dashes and dots in morse.
     
 while True:
-    morseMessage = ""
+    morseMessage = "" # starts an empty string to be added to 
     splash = displayio.Group()
-    message = str(input("Enter your message to be converted to Morse Code: ")).upper()
-    if message == "-Q":
+    message = str(input("Enter your message to be converted to Morse Code: ")).upper()  # message is taken as input
+    if message == "-Q": #quits if -q is typed
         break
-    for letter in message:
-        morseMessage += MORSE_CODE[letter]
-        morseMessage += '/'
+    for letter in message:      
+        morseMessage += MORSE_CODE[letter]      #adds each morse letter to the morse message
+        morseMessage += '/'                     #puts a slash between each letter
     print(morseMessage)
