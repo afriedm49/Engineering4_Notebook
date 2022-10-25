@@ -10,8 +10,8 @@ staticled = digitalio.DigitalInOut(board.GP15)
 staticled.direction=digitalio.Direction.OUTPUT
 button = digitalio.DigitalInOut(board.GP13)
 button.pull = digitalio.Pull.DOWN
-pwm_servo = pwmio.PWMOut(board.GP4, duty_cycle=2 ** 15, frequency=50)
-servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
+pwm_servo = pwmio.PWMOut(board.GP4, duty_cycle=2 ** 15, frequency=50) #sets up the servo type with the pwmio import language
+servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)  #sets up the specific servo being used
 servo1.angle = 0
 counter = 0
 while True:
@@ -23,7 +23,7 @@ while True:
         blinkled.value = False
         time.sleep(.5)
         counter += 1
-        if counter > 7:
+        if counter > 7:   # after 7 blinks, the servo sweeps by 60 degrees each second, to turn the full 180
             servo1.angle += 60
     print("Liftoff!")
     while True:
