@@ -20,9 +20,9 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '7':'--...', '8':'---..', '9':'----.',
     '0':'-----', ', ':'--..--', '.':'.-.-.-',
     '?':'..--..', '/':'-..-.', '-':'-....-',
-    '(':'-.--.', ')':'-.--.-', ' ': '/'}
+    '(':'-.--.', ')':'-.--.-', ' ': '/'}        #' ' was added to the dictionary, so a slash would appear between each word in the morse message.
 
-modifier = 0.25
+modifier = 0.25             # variables show the amount of time for each to rest before blinking again.
 dot_time = 1*modifier
 dash_time = 3*modifier
 tap_delay = modifier
@@ -41,7 +41,7 @@ while True:
             morseMessage += ' '
     print(morseMessage)
     for item in morseMessage:
-        if item == '.':
+        if item == '.':         #blinks an LED for the "dot_time", which is done for each type of letter below
             led.value = True
             time.sleep(dot_time)
             led.value = False
@@ -50,9 +50,9 @@ while True:
             time.sleep(dash_time)
             led.value = False
         
-        if item == ' ':
+        if item == ' ':                     #Message blinks between letters
             time.sleep(between_letters)
-        elif item == '/':
+        elif item == '/':                   #blinks for a different time between each word
             time.sleep(between_words)
         else:
             time.sleep(tap_delay)
