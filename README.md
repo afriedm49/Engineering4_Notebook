@@ -14,7 +14,7 @@
 * [LandingArea2](#LandingArea2)
 * [MorseCode1](#MorseCode1)
 * [MorseCode2](#MorseCode2)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
+* [Beam_design](#Beam_design)
 
 &nbsp;
 
@@ -318,11 +318,11 @@ for item in morseMessage:
 ```
 &nbsp;
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Onshape_Assignment_Template
+## Beam_design
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This assignment was to design a beam with a partner that holds the most weight
 
 ### Part Link 
 
