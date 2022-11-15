@@ -18,9 +18,10 @@
 * [MorseCode2](#MorseCode2)
 
 ### Q2
-* [Beam_design](#Beam_design)
-* [Onshape Collaboration](#Onshape_collaboration)
-
+* [Beam_Design](#Beam_Design)
+* [Onshape Collaboration_Part1](#Onshape_Collaboration_Part_1)
+* [Onshape Collaboration_Part1](#Onshape_Collaboration_Part_2)
+* [Onshape Collaboration_Part1](#Onshape_Collaboration_Part_3)
 
 &nbsp;
 
@@ -342,37 +343,68 @@ This assignment was to design a beam with a partner that holds the most weight o
 #### Printed
 <img src="images/Printed_beam.jpg" width="500" height="400" />  <img src="images/Broken_beam.jpg" width="500" height="400" />
 
-
-
 ### Reflection
 
 Throughout this process, we went through multiple different designs, including an hourglass shape and an x or cross. We eventually decided on a triangle shape, with triangle cutouts throughout on every side. These cuts kept almost identical strength but took off a lot of weight so that we were within the constraints of the project.
 
 &nbsp;
 
-## Onshape_collaboration
+## Onshape_Collaboration_Part_1
 
 ### Assignment Description
 
-This assignment was to design a beam with a partner that holds the most weight on the end, constrained by a length of at least 180 centimeters and weigh under 13 grams.
+For this assignment, I designed the "spinner" as student B. The bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts.
 
 ### Part Link 
 
-[Onshape Document](https://cvilleschools.onshape.com/documents/135793b07c3e73109ccb7f6d/w/2e28a741b39a56ee177063a1/e/6cefb090dabb9c35e73cad40?renderMode=0&uiState=636bfb3f37b6be47af1aaa0c)
+[Onshape Document](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/40681ac5c8908a8eeff8504f/e/f9d02dd13f6b4064fcd17f13?renderMode=0&uiState=6373ddc23687493cd86c8d5b)
 
 ### Part Image
-#### Onshape 
-<img src="images/Beam.png" width="600" height="400" />
-
-
-#### Printed
-<img src="images/Printed_beam.jpg" width="500" height="400" />  <img src="images/Broken_beam.jpg" width="500" height="400" />
-
+<img src="images/Spinner.png" width="600" height="400" />
 
 
 ### Reflection
 
-Throughout this process, we went through multiple different designs, including an hourglass shape and an x or cross. We eventually decided on a triangle shape, with triangle cutouts throughout on every side. These cuts kept almost identical strength but took off a lot of weight so that we were within the constraints of the project.
+This part...
+
+## Onshape_Collaboration_Part_2
+
+### Assignment Description
+
+For this assignment, I designed the "prop" as student B. 
+
+### Part Link 
+
+[Onshape Document](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/40681ac5c8908a8eeff8504f/e/f9d02dd13f6b4064fcd17f13?renderMode=0&uiState=6373ddc23687493cd86c8d5b)
+
+### Part Image
+<img src="images/Spinner.png" width="600" height="400" />
+
+
+### Reflection
+
+This part...
 
 &nbsp;
+
+## Onshape_Collaboration_Part_3
+
+### Assignment Description
+
+For this assignment, I designed the "spinner" as student B. The bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts..
+
+### Part Link 
+
+[Onshape Document](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/40681ac5c8908a8eeff8504f/e/f9d02dd13f6b4064fcd17f13?renderMode=0&uiState=6373ddc23687493cd86c8d5b)
+
+### Part Image
+<img src="images/Spinner.png" width="600" height="400" />
+
+
+### Reflection
+
+This part...
+
+&nbsp;
+
 
