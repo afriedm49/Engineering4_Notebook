@@ -329,8 +329,13 @@ This assignment was to design a beam with a partner that holds the most weight o
 [Onshape Document](https://cvilleschools.onshape.com/documents/135793b07c3e73109ccb7f6d/w/2e28a741b39a56ee177063a1/e/6cefb090dabb9c35e73cad40?renderMode=0&uiState=636bfb3f37b6be47af1aaa0c)
 
 ### Part Image
+#### Onshape 
+<img src="images/Beam.png" width="600" height="400" />
 
-<img src="images/Beam.png" width="300" height="400" />
+
+#### Printed
+<img src="images/Printed_beam.jpg" width="500" height="400" />  <img src="images/Broken_beam.jpg" width="500" height="400" />
+
 
 
 ### Reflection
