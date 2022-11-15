@@ -3,6 +3,8 @@
 &nbsp;
 
 ## Table of Contents
+
+### Q1
 * [LaunchPad1](#LaunchPad1)
 * [LaunchPad2](#LaunchPad2)
 * [LaunchPad3](#LaunchPad3)
@@ -14,7 +16,11 @@
 * [LandingArea2](#LandingArea2)
 * [MorseCode1](#MorseCode1)
 * [MorseCode2](#MorseCode2)
+
+### Q2
 * [Beam_design](#Beam_design)
+* [Onshape Collaboration](#Onshape_collaboration)
+
 
 &nbsp;
 
@@ -344,14 +350,29 @@ Throughout this process, we went through multiple different designs, including a
 
 &nbsp;
 
-## Media Test
+## Onshape_collaboration
 
-Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
+### Assignment Description
 
-### Test Link
-  [Test](raspberry-pi/test.py)      
+This assignment was to design a beam with a partner that holds the most weight on the end, constrained by a length of at least 180 centimeters and weigh under 13 grams.
 
-### Test Image
-  ![Test](images/raspberry.jfif) 
-### Test GIF
-  ![Test](images/Gatsbymeme.gif) 
+### Part Link 
+
+[Onshape Document](https://cvilleschools.onshape.com/documents/135793b07c3e73109ccb7f6d/w/2e28a741b39a56ee177063a1/e/6cefb090dabb9c35e73cad40?renderMode=0&uiState=636bfb3f37b6be47af1aaa0c)
+
+### Part Image
+#### Onshape 
+<img src="images/Beam.png" width="600" height="400" />
+
+
+#### Printed
+<img src="images/Printed_beam.jpg" width="500" height="400" />  <img src="images/Broken_beam.jpg" width="500" height="400" />
+
+
+
+### Reflection
+
+Throughout this process, we went through multiple different designs, including an hourglass shape and an x or cross. We eventually decided on a triangle shape, with triangle cutouts throughout on every side. These cuts kept almost identical strength but took off a lot of weight so that we were within the constraints of the project.
+
+&nbsp;
+
