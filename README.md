@@ -19,9 +19,9 @@
 
 ### Q2
 * [Beam_Design](#Beam_Design)
-* [Onshape Collaboration_Part1](#Onshape_Collaboration_Part_1)
-* [Onshape Collaboration_Part1](#Onshape_Collaboration_Part_2)
-* [Onshape Collaboration_Part1](#Onshape_Collaboration_Part_3)
+* [Onshape Collaboration_Part 1](#Onshape_Collaboration_Part_1)
+* [Onshape Collaboration_Part 2](#Onshape_Collaboration_Part_2)
+* [Onshape Collaboration_Part 3](#Onshape_Collaboration_Part_3)
 
 &nbsp;
 
@@ -353,7 +353,8 @@ Throughout this process, we went through multiple different designs, including a
 
 ### Assignment Description
 
-For this assignment, I designed the "spinner" as student B. The bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts.
+For this assignment, I designed the "spinner" as student B. The bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts. The ring was designed by my [partner](eliaszell).
+
 
 ### Part Link 
 
@@ -371,19 +372,19 @@ This part...
 
 ### Assignment Description
 
-For this assignment, I designed the "prop" as student B. 
+For this assignment, I designed the "prop" as student B. The prop is a circular disk that spins off of the top of the spinner when winded up by the key. The key was designed by my [partner](eliaszell).
 
 ### Part Link 
 
 [Onshape Document](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/40681ac5c8908a8eeff8504f/e/f9d02dd13f6b4064fcd17f13?renderMode=0&uiState=6373ddc23687493cd86c8d5b)
 
 ### Part Image
-<img src="images/Spinner.png" width="600" height="400" />
+<img src="images/Prop.png" width="600" height="400" />
 
 
 ### Reflection
 
-This part...
+This assembly included some tricky merging and extrusions/sweeps. The helix design proved difficult to work around, and I ended up having to redo it a couple times. The helix is fairly simple, however, when you get the hang of it. Just make sure to set your helix on "Height and turns".
 
 &nbsp;
 
@@ -391,14 +392,14 @@ This part...
 
 ### Assignment Description
 
-For this assignment, I designed the "spinner" as student B. The bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts..
+For this assignment, we combined our parts together. The assembly uses a rack and pinion mate to make the prop spin as the key is pulled out and inserted.
 
 ### Part Link 
 
 [Onshape Document](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/40681ac5c8908a8eeff8504f/e/f9d02dd13f6b4064fcd17f13?renderMode=0&uiState=6373ddc23687493cd86c8d5b)
 
 ### Part Image
-<img src="images/Spinner.png" width="600" height="400" />
+<img src="images/Assembled_Launcher.png" width="600" height="400" />
 
 
 ### Reflection
