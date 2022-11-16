@@ -353,7 +353,11 @@ Throughout this process, we went through multiple different designs, including a
 
 ### Assignment Description
 
-For this assignment, I designed the "spinner" as student B. The bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts. The ring was designed by my [partner](https://github.com/ezell38/Engineering_4_Notebook#Ring_and_Spinner) Elias Zell.
+For this assignment, I designed the "spinner" as student B. The bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts. 
+
+The ring was designed by my [partner](https://github.com/ezell38/Engineering_4_Notebook#Ring_and_Spinner) Elias Zell:
+
+The overall goal of this assignment was to create, with a partner, a launcher that would launch a toy copter into the air. For this sub-assignment the goal was to create the "ring" used to hold the mechanism while my partner designed the "spinner". For the spinner the bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts.
 
 
 ### Part Link 
@@ -363,17 +367,27 @@ For this assignment, I designed the "spinner" as student B. The bottom half has 
 ### Part Image
 <img src="images/Spinner.png" width="600" height="400" />
 
+![Ring](images/Ring_1.PNG)
+
+![Ring](images/Ring_5.PNG)
 
 ### Reflection
 
 This part was  fairly difficult at first. I had trouble with removing some of the extruded cuts, but it wasn't too complicated. Overall, not an especially challenging process.
 
+Elias:
+This assignment was fairly easy if you follow the directions. One thing that saved time was using the Use function to create the holes that the screws went through as opposed to guessing the distances.
+
 ## Onshape_Collaboration_Part_2
 
 ### Assignment Description
 
-For this assignment, I designed the "prop" as student B. The prop is a circular disk that spins off of the top of the spinner when winded up by the key. The key was designed by my [partner](https://github.com/ezell38/Engineering_4_Notebook#Key_and_Prop) Elias Zell.
+For this assignment, I designed the "prop" as student B. The prop is a circular disk that spins off of the top of the spinner when winded up by the key.
 
+The key was designed by my [partner](https://github.com/ezell38/Engineering_4_Notebook#Key_and_Prop) Elias Zell.
+
+Elias:
+The goal of this assignment was to create the key for the laucher. It is a key-like mechanisem with triangles cutout using a linear pattern to created the ridges used to spin/launch the prop. My partner designed the prop which is a circular disk that spins off of the top of the spinner when winded up by the key.
 ### Part Link 
 
 [Onshape Document](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/40681ac5c8908a8eeff8504f/e/f9d02dd13f6b4064fcd17f13?renderMode=0&uiState=6373ddc23687493cd86c8d5b)
@@ -381,10 +395,17 @@ For this assignment, I designed the "prop" as student B. The prop is a circular 
 ### Part Image
 <img src="images/Prop.png" width="600" height="400" />
 
+![Ring](images/Ring_2.PNG)
+
+![Ring](images/Ring_6.PNG)
 
 ### Reflection
 
 This assembly included some tricky merging and extrusions/sweeps. The helix design proved difficult to work around, and I ended up having to redo it a couple times. The helix is fairly simple, however, when you get the hang of it. Just make sure to set your helix on "Height and turns".
+
+Elias:
+One thing that helped me with this assignment was using a linear pattern to create the grooves in the key. After setting the instances and distance between it was important to do a feature pattern rather than a part pattern. It was also important to have the edge of the key be the direction so it knew where to execute the function.
+
 
 &nbsp;
 
