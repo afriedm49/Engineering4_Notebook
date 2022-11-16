@@ -353,7 +353,7 @@ Throughout this process, we went through multiple different designs, including a
 
 ### Assignment Description
 
-For this assignment, I designed the "spinner" as student B. The bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts. The ring was designed by my [partner](eliaszell).
+For this assignment, I designed the "spinner" as student B. The bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts. The ring was designed by my [partner](https://github.com/ezell38/Engineering_4_Notebook#Ring_and_Spinner) Elias Zell.
 
 
 ### Part Link 
@@ -366,13 +366,13 @@ For this assignment, I designed the "spinner" as student B. The bottom half has 
 
 ### Reflection
 
-This part...
+This part was  fairly difficult at first. I had trouble with removing some of the extruded cuts, but it wasn't too complicated. Overall, not an especially challenging process.
 
 ## Onshape_Collaboration_Part_2
 
 ### Assignment Description
 
-For this assignment, I designed the "prop" as student B. The prop is a circular disk that spins off of the top of the spinner when winded up by the key. The key was designed by my [partner](eliaszell).
+For this assignment, I designed the "prop" as student B. The prop is a circular disk that spins off of the top of the spinner when winded up by the key. The key was designed by my [partner](https://github.com/ezell38/Engineering_4_Notebook#Key_and_Prop) Elias Zell.
 
 ### Part Link 
 
@@ -404,7 +404,7 @@ For this assignment, we combined our parts together. The assembly uses a rack an
 
 ### Reflection
 
-This part...
+This was the easiest of the three steps. We worked together on the assembly, alternating each step, and then animated the motion of the rack and pinion. It was important to put on offset on the rotating mate, in order to line up the key with the spinner.
 
 &nbsp;
 
