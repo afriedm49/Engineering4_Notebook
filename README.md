@@ -369,7 +369,6 @@ The overall goal of this assignment was to create, with a partner, a launcher th
 
 ![Ring](images/Ring_1.PNG)
 
-![Ring](images/Ring_5.PNG)
 
 ### Reflection
 
@@ -396,8 +395,6 @@ The goal of this assignment was to create the key for the laucher. It is a key-l
 <img src="images/Prop.png" width="600" height="400" />
 
 ![Ring](images/Ring_2.PNG)
-
-![Ring](images/Ring_6.PNG)
 
 ### Reflection
 
