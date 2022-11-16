@@ -365,9 +365,7 @@ The overall goal of this assignment was to create, with a partner, a launcher th
 [Onshape Document](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/40681ac5c8908a8eeff8504f/e/f9d02dd13f6b4064fcd17f13?renderMode=0&uiState=6373ddc23687493cd86c8d5b)
 
 ### Part Image
-<img src="images/Spinner.png" width="600" height="400" />
-
-![Ring](images/Ring_1.PNG)
+<img src="images/Spinner.png" width="600" height="400" /> <img src="images/Ring_1.png" width="400" height="400" />
 
 
 ### Reflection
@@ -392,9 +390,7 @@ The goal of this assignment was to create the key for the laucher. It is a key-l
 [Onshape Document](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/40681ac5c8908a8eeff8504f/e/f9d02dd13f6b4064fcd17f13?renderMode=0&uiState=6373ddc23687493cd86c8d5b)
 
 ### Part Image
-<img src="images/Prop.png" width="600" height="400" />
-
-![Ring](images/Ring_2.PNG)
+<img src="images/Prop.png" width="600" height="400" /> <img src="images/Ring_2.png" width="450" height="400" />
 
 ### Reflection
 
