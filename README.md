@@ -17,8 +17,8 @@
 * [MorseCode1](#MorseCode1)
 * [MorseCode2](#MorseCode2)
 
-### Q2
-* [Beam_Design](#Beam_Design)
+### Q3
+* [Beam_Design_Parts 1-3](#Beam_Design)
 * [Onshape Collaboration_Part 1](#Onshape_Collaboration_Part_1)
 * [Onshape Collaboration_Part 2](#Onshape_Collaboration_Part_2)
 * [Onshape Collaboration_Part 3](#Onshape_Collaboration_Part_3)
@@ -329,7 +329,7 @@ for item in morseMessage:
 
 ### Assignment Description
 
-This assignment was to design a beam with a partner that holds the most weight on the end, constrained by a length of at least 180 centimeters and weigh under 13 grams.
+This assignment was to design a beam with a partner that holds the most weight on the end, constrained by a length of at least 180 centimeters and weigh under 13 grams. The first part was to design the beam on Onshape, the second was to test the capacity on SimScale Workflow, and the third was to test the beam's weight in real life after 3D printing it.
 
 ### Part Link 
 
