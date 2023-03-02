@@ -339,14 +339,21 @@ This assignment was to design a beam with a partner that holds the most weight o
 #### Onshape 
 <img src="images/Beam.png" width="600" height="400" />
 
+[SimScale beam](https://github.com/lgray52/Engineering4_Notebook/blob/main/images/cad/fea_deflection.PNG)
+Credit: [Lucy Gray](https://github.com/lgray52)
 
 #### Printed
 <img src="images/Printed_beam.jpg" width="500" height="400" />  <img src="images/Broken_beam.jpg" width="500" height="400" />
 
 ### Reflection
-
+Part 1:
 Throughout this process, we went through multiple different designs, including an hourglass shape and an x or cross. We eventually decided on a triangle shape, with triangle cutouts throughout on every side. These cuts kept almost identical strength but took off a lot of weight so that we were within the constraints of the project.
 
+Part 2:
+This part was pretty simple, just following instructions. The annoying part was waiting for the mesh to load, which took ~1 hour. After seeing results, we saw the points with the most stress, and edited the CAD. The weakest point turned out to be the connection between the block and the top of the beam. We added filets for support to strengthen it, and it held much more stress afterwards.
+
+Part 3:
+This was the testing portion of the project, where our design was finally complete. We 3D printed our beam, and ran into one problem. The issue was that the screw-hole was covered by the top part of the beam, so it was very difficult to get the screw in to connect to the weight and test it. We used wire cutters to snip off part of the material. 
 &nbsp;
 
 ## Onshape_Collaboration_Part_1
