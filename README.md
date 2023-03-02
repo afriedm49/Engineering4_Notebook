@@ -353,7 +353,9 @@ Part 2:
 This part was pretty simple, just following instructions. The annoying part was waiting for the mesh to load, which took ~1 hour. After seeing results, we saw the points with the most stress, and edited the CAD. The weakest point turned out to be the connection between the block and the top of the beam. We added filets for support to strengthen it, and it held much more stress afterwards.
 
 Part 3:
-This was the testing portion of the project, where our design was finally complete. We 3D printed our beam, and ran into one problem. The issue was that the screw-hole was covered by the top part of the beam, so it was very difficult to get the screw in to connect to the weight and test it. We used wire cutters to snip off part of the material. 
+This was the testing portion of the project, where our design was finally complete. We 3D printed our beam, and ran into one problem. The issue was that the screw-hole was covered by the top part of the beam, so it was very difficult to get the screw in to connect to the weight and test it. We used wire cutters to snip off part of the material. After testing, our final beam supported 2.056 kg before breaking the deflection limit of 35mm and 2.516 before it broke. 
+
+
 &nbsp;
 
 ## Onshape_Collaboration_Part_1
