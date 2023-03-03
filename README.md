@@ -340,6 +340,7 @@ This assignment was to design a beam with a partner that holds the most weight o
 <img src="images/Beam.png" width="600" height="400" />
 
 <img src="images/BeamDesign_part2.png"/>
+
 Credit: [Lucy Gray](https://github.com/lgray52)
 
 #### Printed
