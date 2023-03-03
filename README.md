@@ -339,7 +339,7 @@ This assignment was to design a beam with a partner that holds the most weight o
 #### Onshape 
 <img src="images/Beam.png" width="600" height="400" />
 
-[SimScale beam](https://github.com/lgray52/Engineering4_Notebook/blob/main/images/cad/fea_deflection.PNG)
+<img src="images/BeamDesign_part2.png"/>
 Credit: [Lucy Gray](https://github.com/lgray52)
 
 #### Printed
